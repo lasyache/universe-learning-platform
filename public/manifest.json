@@ -1,0 +1,22 @@
+{
+  "name": "UniVerse Learning Platform",
+  "short_name": "UniVerse",
+  "description": "AI-Powered Educational Analytics Platform for Students, Teachers, and Parents",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "orientation": "portrait-primary",
+  "icons": [],
+  "categories": ["education", "productivity"],
+  "lang": "en",
+  "dir": "ltr",
+  "scope": "/",
+  "prefer_related_applications": false,
+  "features": [
+    "Cross Platform",
+    "fast",
+    "simple"
+  ],
+  "screenshots": []
+} 

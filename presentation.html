@@ -1,0 +1,318 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Gap Analyzer - App Presentation</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .slide {
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+            page-break-after: always;
+        }
+        
+        .slide:last-child {
+            page-break-after: avoid;
+        }
+        
+        .title-slide {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+        }
+        
+        .title-slide h1 {
+            font-size: 4rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            text-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+        
+        .title-slide p {
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        .feature-slide {
+            background: white;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+        
+        .feature-content {
+            padding: 40px;
+        }
+        
+        .feature-content h2 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: #1e40af;
+            margin-bottom: 1rem;
+        }
+        
+        .feature-content p {
+            font-size: 1.2rem;
+            color: #6b7280;
+            margin-bottom: 2rem;
+        }
+        
+        .feature-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .feature-image img {
+            max-width: 100%;
+            max-height: 80vh;
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            border: 1px solid #e5e7eb;
+        }
+        
+        .overview-slide {
+            background: white;
+            text-align: center;
+            padding: 60px;
+        }
+        
+        .overview-slide h2 {
+            font-size: 3rem;
+            font-weight: 600;
+            color: #1e40af;
+            margin-bottom: 2rem;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 3rem;
+        }
+        
+        .feature-card {
+            background: #f8fafc;
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .feature-card h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #1e40af;
+            margin-bottom: 1rem;
+        }
+        
+        .feature-card p {
+            color: #64748b;
+            line-height: 1.6;
+        }
+        
+        .tech-slide {
+            background: white;
+            padding: 60px;
+        }
+        
+        .tech-slide h2 {
+            font-size: 3rem;
+            font-weight: 600;
+            color: #1e40af;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        
+        .tech-item {
+            background: #f1f5f9;
+            padding: 25px;
+            border-radius: 8px;
+            text-align: center;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .tech-item h3 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #1e40af;
+            margin-bottom: 0.5rem;
+        }
+        
+        .tech-item p {
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+        
+        @media print {
+            .slide {
+                page-break-after: always;
+                min-height: 100vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Title Slide -->
+    <div class="slide title-slide">
+        <h1>Learning Gap Analyzer</h1>
+        <p>AI-Powered Educational Analytics Platform</p>
+        <p style="font-size: 1.2rem; margin-top: 2rem;">Comprehensive App Presentation</p>
+    </div>
+
+    <!-- Overview Slide -->
+    <div class="slide overview-slide">
+        <h2>App Overview</h2>
+        <p style="font-size: 1.3rem; color: #6b7280; max-width: 800px; margin: 0 auto;">
+            A modern web application that helps students identify learning gaps by analyzing their test and assignment performance data, providing personalized insights and actionable recommendations.
+        </p>
+        
+        <div class="features-grid">
+            <div class="feature-card">
+                <h3>📊 Student Dashboard</h3>
+                <p>Real-time performance overview with interactive charts and AI-generated insights</p>
+            </div>
+            <div class="feature-card">
+                <h3>🧠 AI Analysis</h3>
+                <p>Advanced algorithms identify learning gaps and provide personalized recommendations</p>
+            </div>
+            <div class="feature-card">
+                <h3>🔄 Data Sync</h3>
+                <p>Seamless integration with learning platforms and file upload capabilities</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feature Slides -->
+    
+    <div class="slide feature-slide">
+        <div class="feature-content">
+            <h2>Student Dashboard</h2>
+            <p>Main dashboard showing performance overview, charts, recent assignments, and AI insights</p>
+        </div>
+        <div class="feature-image">
+            <img src="screenshots/01-dashboard.png" alt="Student Dashboard">
+        </div>
+    </div>
+    
+    <div class="slide feature-slide">
+        <div class="feature-content">
+            <h2>AI Learning Gap Analysis</h2>
+            <p>AI-powered analysis showing identified learning gaps, severity levels, and personalized recommendations</p>
+        </div>
+        <div class="feature-image">
+            <img src="screenshots/02-ai-analysis.png" alt="AI Learning Gap Analysis">
+        </div>
+    </div>
+    
+    <div class="slide feature-slide">
+        <div class="feature-content">
+            <h2>Data Sync & Import</h2>
+            <p>File upload interface, supported formats, connected data sources, and import history</p>
+        </div>
+        <div class="feature-image">
+            <img src="screenshots/03-data-sync.png" alt="Data Sync & Import">
+        </div>
+    </div>
+    
+    <div class="slide feature-slide">
+        <div class="feature-content">
+            <h2>Performance Charts</h2>
+            <p>Interactive charts showing performance trends and subject breakdowns</p>
+        </div>
+        <div class="feature-image">
+            <img src="screenshots/04-dashboard-charts.png" alt="Performance Charts">
+        </div>
+    </div>
+    
+    <div class="slide feature-slide">
+        <div class="feature-content">
+            <h2>Learning Gap Details</h2>
+            <p>Detailed view of identified learning gaps with severity levels and impact scores</p>
+        </div>
+        <div class="feature-image">
+            <img src="screenshots/05-ai-gaps.png" alt="Learning Gap Details">
+        </div>
+    </div>
+    
+    <div class="slide feature-slide">
+        <div class="feature-content">
+            <h2>File Upload Interface</h2>
+            <p>Drag and drop file upload area with supported format indicators</p>
+        </div>
+        <div class="feature-image">
+            <img src="screenshots/06-upload-area.png" alt="File Upload Interface">
+        </div>
+    </div>
+    
+
+    <!-- Technology Stack -->
+    <div class="slide tech-slide">
+        <h2>Technology Stack</h2>
+        <div class="tech-grid">
+            <div class="tech-item">
+                <h3>Next.js 14</h3>
+                <p>React framework with App Router</p>
+            </div>
+            <div class="tech-item">
+                <h3>TypeScript</h3>
+                <p>Type-safe development</p>
+            </div>
+            <div class="tech-item">
+                <h3>Tailwind CSS</h3>
+                <p>Utility-first styling</p>
+            </div>
+            <div class="tech-item">
+                <h3>Recharts</h3>
+                <p>Data visualization</p>
+            </div>
+            <div class="tech-item">
+                <h3>Lucide React</h3>
+                <p>Modern icon library</p>
+            </div>
+            <div class="tech-item">
+                <h3>Puppeteer</h3>
+                <p>PDF generation</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Conclusion Slide -->
+    <div class="slide title-slide">
+        <h1>Thank You!</h1>
+        <p>Learning Gap Analyzer - Transforming Education with AI</p>
+        <p style="font-size: 1.2rem; margin-top: 2rem;">Ready for deployment and further development</p>
+    </div>
+</body>
+</html>
+  

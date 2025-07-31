@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  body {
+    @apply bg-gradient-to-br from-universe-50 to-secondary-50 text-gray-900;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-universe-gradient-2 hover:bg-universe-gradient-3 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl;
+  }
+  
+  .btn-secondary {
+    @apply bg-white hover:bg-universe-50 text-universe-700 font-semibold py-3 px-6 rounded-xl border-2 border-universe-200 transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg;
+  }
+  
+  .btn-success {
+    @apply bg-success-500 hover:bg-success-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg;
+  }
+  
+  .btn-warning {
+    @apply bg-warning-500 hover:bg-warning-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg;
+  }
+  
+  .card {
+    @apply bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl border border-white/20 p-6 hover:shadow-2xl transition-all duration-300;
+  }
+  
+  .card-hover {
+    @apply card hover:bg-white/90 hover:scale-105 cursor-pointer;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-3 border-2 border-universe-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-universe-500 focus:border-universe-500 transition-all duration-300 bg-white/80 backdrop-blur-sm;
+  }
+  
+  .gradient-bg {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  }
+  
+  .universe-gradient {
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  }
+  
+  .universe-gradient-2 {
+    background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+  }
+  
+  .glass-effect {
+    @apply backdrop-blur-md bg-white/70 border border-white/30;
+  }
+  
+  .nav-item {
+    @apply flex items-center space-x-3 px-4 py-3 rounded-xl font-medium transition-all duration-300 hover:bg-universe-50 hover:text-universe-700;
+  }
+  
+  .nav-item.active {
+    @apply bg-universe-gradient text-white shadow-lg;
+  }
+  
+  .stat-card {
+    @apply card text-center hover:scale-105 transition-all duration-300;
+  }
+  
+  .stat-card .icon {
+    @apply w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-4 text-white;
+  }
+  
+  .progress-bar {
+    @apply w-full bg-universe-100 rounded-full h-3 overflow-hidden;
+  }
+  
+  .progress-fill {
+    @apply h-full bg-universe-gradient rounded-full transition-all duration-500;
+  }
+  
+  .badge {
+    @apply px-3 py-1 rounded-full text-xs font-semibold;
+  }
+  
+  .badge-success {
+    @apply badge bg-success-100 text-success-700;
+  }
+  
+  .badge-warning {
+    @apply badge bg-warning-100 text-warning-700;
+  }
+  
+  .badge-danger {
+    @apply badge bg-danger-100 text-danger-700;
+  }
+  
+  .badge-universe {
+    @apply badge bg-universe-100 text-universe-700;
+  }
+  
+  .floating-card {
+    @apply card animate-float;
+  }
+  
+  .pulse-glow {
+    @apply animate-pulse-slow;
+  }
+} 

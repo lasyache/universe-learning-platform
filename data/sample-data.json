@@ -1,0 +1,217 @@
+{
+  "student": {
+    "id": "STU001",
+    "name": "Sarah Johnson",
+    "grade": "11th Grade",
+    "school": "Lincoln High School"
+  },
+  "subjects": [
+    {
+      "name": "Mathematics",
+      "overall_score": 85,
+      "topics": [
+        {
+          "name": "Algebra",
+          "score": 92,
+          "assignments": [
+            { "title": "Linear Equations Quiz", "score": 95, "max_score": 100, "date": "2024-01-10" },
+            { "title": "Quadratic Functions", "score": 88, "max_score": 100, "date": "2024-01-12" },
+            { "title": "Systems of Equations", "score": 94, "max_score": 100, "date": "2024-01-15" }
+          ]
+        },
+        {
+          "name": "Geometry",
+          "score": 78,
+          "assignments": [
+            { "title": "Triangle Properties", "score": 75, "max_score": 100, "date": "2024-01-08" },
+            { "title": "Circle Theorems", "score": 82, "max_score": 100, "date": "2024-01-11" },
+            { "title": "Area and Perimeter", "score": 76, "max_score": 100, "date": "2024-01-14" }
+          ]
+        },
+        {
+          "name": "Calculus",
+          "score": 70,
+          "assignments": [
+            { "title": "Derivatives Quiz", "score": 65, "max_score": 100, "date": "2024-01-09" },
+            { "title": "Integration Basics", "score": 72, "max_score": 100, "date": "2024-01-13" },
+            { "title": "Limits and Continuity", "score": 73, "max_score": 100, "date": "2024-01-16" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Science",
+      "overall_score": 78,
+      "topics": [
+        {
+          "name": "Chemistry",
+          "score": 82,
+          "assignments": [
+            { "title": "Atomic Structure", "score": 85, "max_score": 100, "date": "2024-01-10" },
+            { "title": "Chemical Bonding", "score": 80, "max_score": 100, "date": "2024-01-12" },
+            { "title": "Lab Report: Titration", "score": 78, "max_score": 100, "date": "2024-01-15" }
+          ]
+        },
+        {
+          "name": "Physics",
+          "score": 75,
+          "assignments": [
+            { "title": "Newton's Laws", "score": 78, "max_score": 100, "date": "2024-01-08" },
+            { "title": "Energy Conservation", "score": 72, "max_score": 100, "date": "2024-01-11" },
+            { "title": "Wave Properties", "score": 75, "max_score": 100, "date": "2024-01-14" }
+          ]
+        },
+        {
+          "name": "Biology",
+          "score": 76,
+          "assignments": [
+            { "title": "Cell Biology", "score": 80, "max_score": 100, "date": "2024-01-09" },
+            { "title": "Genetics Quiz", "score": 70, "max_score": 100, "date": "2024-01-13" },
+            { "title": "Ecosystems", "score": 78, "max_score": 100, "date": "2024-01-16" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "English",
+      "overall_score": 92,
+      "topics": [
+        {
+          "name": "Literature",
+          "score": 95,
+          "assignments": [
+            { "title": "Shakespeare Analysis", "score": 96, "max_score": 100, "date": "2024-01-10" },
+            { "title": "Poetry Interpretation", "score": 94, "max_score": 100, "date": "2024-01-12" },
+            { "title": "Novel Study Essay", "score": 95, "max_score": 100, "date": "2024-01-15" }
+          ]
+        },
+        {
+          "name": "Writing",
+          "score": 88,
+          "assignments": [
+            { "title": "Argumentative Essay", "score": 85, "max_score": 100, "date": "2024-01-08" },
+            { "title": "Research Paper", "score": 90, "max_score": 100, "date": "2024-01-11" },
+            { "title": "Creative Writing", "score": 89, "max_score": 100, "date": "2024-01-14" }
+          ]
+        },
+        {
+          "name": "Grammar",
+          "score": 93,
+          "assignments": [
+            { "title": "Grammar Quiz", "score": 95, "max_score": 100, "date": "2024-01-09" },
+            { "title": "Sentence Structure", "score": 92, "max_score": 100, "date": "2024-01-13" },
+            { "title": "Punctuation Test", "score": 92, "max_score": 100, "date": "2024-01-16" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "History",
+      "overall_score": 70,
+      "topics": [
+        {
+          "name": "World History",
+          "score": 68,
+          "assignments": [
+            { "title": "Ancient Civilizations", "score": 70, "max_score": 100, "date": "2024-01-10" },
+            { "title": "World War II", "score": 65, "max_score": 100, "date": "2024-01-12" },
+            { "title": "Cold War Era", "score": 69, "max_score": 100, "date": "2024-01-15" }
+          ]
+        },
+        {
+          "name": "US History",
+          "score": 72,
+          "assignments": [
+            { "title": "American Revolution", "score": 75, "max_score": 100, "date": "2024-01-08" },
+            { "title": "Civil War", "score": 70, "max_score": 100, "date": "2024-01-11" },
+            { "title": "Civil Rights Movement", "score": 71, "max_score": 100, "date": "2024-01-14" }
+          ]
+        },
+        {
+          "name": "Geography",
+          "score": 70,
+          "assignments": [
+            { "title": "World Geography", "score": 72, "max_score": 100, "date": "2024-01-09" },
+            { "title": "Political Systems", "score": 68, "max_score": 100, "date": "2024-01-13" },
+            { "title": "Economic Geography", "score": 70, "max_score": 100, "date": "2024-01-16" }
+          ]
+        }
+      ]
+    }
+  ],
+  "learning_patterns": {
+    "study_hours_per_week": 15,
+    "preferred_study_time": "evening",
+    "study_methods": ["practice_problems", "reading", "note_taking"],
+    "weakest_subject": "History",
+    "strongest_subject": "English",
+    "improvement_areas": ["time_management", "test_anxiety", "note_organization"]
+  },
+  "ai_analysis": {
+    "learning_gaps": [
+      {
+        "subject": "Mathematics",
+        "topic": "Calculus",
+        "severity": "high",
+        "impact": 15,
+        "description": "Struggling with fundamental calculus concepts, particularly derivatives and integration",
+        "recommendations": [
+          "Review pre-calculus concepts",
+          "Practice derivative rules daily",
+          "Use visual learning tools for integration",
+          "Seek additional tutoring"
+        ]
+      },
+      {
+        "subject": "History",
+        "topic": "World War II",
+        "severity": "medium",
+        "impact": 8,
+        "description": "Difficulty understanding the timeline and key events of WWII",
+        "recommendations": [
+          "Create timeline flashcards",
+          "Watch documentary videos",
+          "Read simplified summaries",
+          "Practice with interactive maps"
+        ]
+      },
+      {
+        "subject": "Science",
+        "topic": "Physics",
+        "severity": "medium",
+        "impact": 6,
+        "description": "Challenges with energy conservation and wave properties",
+        "recommendations": [
+          "Use simulation software",
+          "Practice with real-world examples",
+          "Review mathematical foundations",
+          "Join study groups"
+        ]
+      }
+    ],
+    "strengths": [
+      "Excellent performance in English Literature",
+      "Strong analytical thinking in Mathematics",
+      "Consistent study habits",
+      "Good time management for assignments"
+    ],
+    "recommendations": [
+      {
+        "type": "immediate",
+        "actions": [
+          "Focus on calculus fundamentals",
+          "Create WWII timeline study guide",
+          "Practice physics problems daily"
+        ]
+      },
+      {
+        "type": "long_term",
+        "actions": [
+          "Develop note-taking strategies",
+          "Improve test-taking skills",
+          "Build confidence in weak subjects"
+        ]
+      }
+    ]
+  }
+} 
