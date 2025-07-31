@@ -301,7 +301,7 @@ export default function DataSync() {
   const [activeTab, setActiveTab] = useState('overview')
 
   return (
-    <AuthGuard currentPath="/data-sync">
+    <AuthGuard>
       <DataSyncContent activeTab={activeTab} setActiveTab={setActiveTab} />
     </AuthGuard>
   )
