@@ -115,7 +115,7 @@ const GapCard = ({ gap }: any) => {
       <div>
         <h4 className="font-medium text-gray-900 mb-2">AI Recommendations:</h4>
         <ul className="space-y-1">
-          {gap.recommendations.map((rec, index) => (
+          {gap.recommendations.map((rec: string, index) => (
             <li key={index} className="flex items-start space-x-2 text-sm text-gray-700">
               <Lightbulb className="w-4 h-4 text-primary-500 mt-0.5 flex-shrink-0" />
               <span>{rec}</span>
